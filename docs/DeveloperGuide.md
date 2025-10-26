@@ -360,10 +360,17 @@ Below is a sequence diagram illustrating the `modify-income` flow:
 
 ## User Stories
 
-| Version | As a ... | I want to ...             | So that I can ...                                           |
-| ------- | -------- | ------------------------- | ----------------------------------------------------------- |
-| v1.0    | new user | see usage instructions    | refer to them when I forget how to use the application      |
-| v2.0    | user     | find a to-do item by name | locate a to-do without having to go through the entire list |
+| Priority | As a ... | I want to ... | So that I can ... |
+| -------- | -------- | ------------- | ----------------- |
+| High | newly enrolled NUS computing student | run a single `help` command that lists every available command with concrete examples | orient myself quickly between lectures and lab sessions |
+| High | allowance-conscious engineering undergrad | capture each expense with amount, category, date, and optional description in one command | keep an accurate record of tuition fees, accommodation, and component purchases |
+| High | NUS intern juggling stipends | log recurring income entries with category tags and posting dates | align internship stipends, scholarships, and allowances against upcoming costs |
+| High | student project lead | define monthly budgets per category and receive warnings when adding expenses that exceed them | keep capstone or design project spending within reimbursement limits |
+| Medium | analytical NUS student | list and filter expenses/incomes by category or month directly from the CLI | review spending by modules, labs, or campus activities without exporting data |
+| Medium | meticulous student | modify previously recorded entries by index using the same prefixes as the add command | correct mistakes before submitting receipts for reimbursement |
+| Medium | collaborative project teammate | export my financial data to a CSV file at a user-specified path | share spending breakdowns with teammates or supervisors during project reviews |
+| Low | exchange-aspiring student | display a summary of income versus expenses over a configurable time range | plan savings targets for SEP or overseas internships |
+| Low | busy student leader | exit the application safely with `bye` once I'm done recording transactions | wrap up quickly between lectures without leaving the CLI session hanging |
 
 ## Non-Functional Requirements
 
